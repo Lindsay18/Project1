@@ -130,6 +130,7 @@ nav a:hover {
     gap: 1.5em;
     background: whitesmoke;
     margin-bottom: 2rem;
+    box-shadow: 0px 0px 10px white;
 }
 
 .location-container {
@@ -148,15 +149,39 @@ nav a:hover {
 .headline {
     position: fixed;
     padding-top: 8rem;
-    font-size: 18px;
+    font-size: 15px;
     justify-content: center;
     margin-left: 2%;
     font-family: Gloria Hallelujah;
     color: #6da5c0;
-
-
+    text-transform: uppercase;
 }
 
+.image-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-card img {
+    height: 75%;
+    width: 75%;
+    background-size: contain;
+}
+
+.main-image {
+    margin: auto;
+    padding-left: 60px;
+}
+
+.secondary-image {
+    margin: auto;
+}
+
+.third-image {
+    margin: auto;
+    padding-right: -60px;
+}
 
 
 
@@ -246,7 +271,7 @@ nav a:hover {
     }
 
     .headline {
-        font-size: 36px;
+        font-size: 30px;
         text-align: center;
         padding-left: 25%;
         padding-right: 25%;
