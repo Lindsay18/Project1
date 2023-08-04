@@ -227,8 +227,14 @@ nav a:hover {
 
 
 
+/* contact us */
 
-
+.contact-us-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
