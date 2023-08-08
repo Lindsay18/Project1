@@ -16,16 +16,15 @@ body {
     font-family: 'Ubunto', sans-serif;
     font-weight: 400;
     width: 100%;
-
+    padding-top: 130px;
 }
 
 #homepage {
-    height: 200vh;
+    height: 100vh;
     background-image: url(/assets/images/tunnel.jpg);
     background-color: rgb(165, 168, 168);
     background-blend-mode: multiply;
     background-size: cover;
-    display: grid;
 }
 
 /* navigation styles start here */
@@ -37,6 +36,7 @@ header {
     z-index: 999;
     width: 100%;
     height: 130px;
+    top: 0;
 }
 
 .nav-toggle {
@@ -148,7 +148,6 @@ nav a:hover {
 }
 
 .headline {
-    position: fixed;
     padding-top: 8rem;
     font-size: 15px;
     justify-content: center;
@@ -162,26 +161,29 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 50px;
+    padding: 0 10px;
 }
 
 .image-card img {
-    height: 75%;
-    width: 75%;
-    background-size: contain;
+    width: 100%;
 }
 
-.main-image {
-    margin: auto;
-    padding-left: 60px;
-}
+.main-image {}
 
 .secondary-image {
-    margin: auto;
+    flex: 1 1 40%;
 }
 
-.third-image {
-    margin: auto;
-    padding-right: -60px;
+.third-image {}
+
+.outer-img {
+    flex: 0 0 30%;
+}
+
+.outer-img img {
+    height: 450px;
+    object-fit: cover;
 }
 
 
@@ -195,11 +197,12 @@ nav a:hover {
 .photos {
     display: flex;
     flex-direction: column;
-    column-count: 3;
-    column-gap: 2px;
-    
 }
 
+.photos img {
+    width: 100%;
+    object-fit: cover;
+}
 
 
 
@@ -315,6 +318,11 @@ form>div:nth-child(1) {
     .photos {
         display: flex;
         flex-direction: row;
-        column-count: 3;
+        flex-wrap: wrap;
+
+    }
+
+    .photos img {
+        flex: 1 1 33.3333334%;
     }
 }
