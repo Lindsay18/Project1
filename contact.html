@@ -66,27 +66,64 @@
           </label>
         </header>
 
-        <div class="contact-us-form">
-            <div class="front"></div>
-            <h1 class="title">Contact us</h1>
-            <p></p>
-            <p></p>
-            <p><strong></strong></p>
+        <form>
+          <div>
+            <div>
+              <label for="fname">First Name</label>
+              <input type="text" placeholder="First Name" id="fname" required />
+            </div>
+            <div>
+              <label for="lname">Last Name</label>
+              <input type="text" placeholder="Last name" id="lname" required />
+            </div>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              placeholder="Email Adress"
+              id="email"
+              required
+            />
+          </div>
 
-            <form action="">
-                <label class="name">Your Name:</label>
-                <input class="name" type="name" id="name" name="full-name" placeholder="Your Name">
-                <label class="email">Email:</label>
-                <input class="email" type="email" id="email" name="email" type="email" placeholder="Your Email">
-                <label class="sign-up">Subcribe to our Weekly Newsletter</label>
-                <input class="sign-up" type="submit" value="Register" name="name">
+          <div class="buttons">
+            <h2>Which Park Are You Interested In?</h2>
+            <div>
+              <label for="livi">Livingston</label>
+              <input type="radio" name="which-park" id="livi" value="livi" />
+            </div>
+            <div>
+              <label for="stoke">Stoke Plaza</label>
+              <input type="radio" name="which-park" id="stoke" value="stoke" />
+            </div>
+            <div>
+              <label for="source">Source Park</label>
+              <input
+                type="radio"
+                name="which-park"
+                id="source"
+                value="source"
+              />
+            </div>
+            <div>
+              <label for="level">The Level</label>
+              <input type="radio" name="which-park" id="level" value="level" />
+            </div>
+          </div>
 
-            </form>
+          <div>
+            <label for="message">Leave Your Questions below</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="60"
+              rows="30"
+            ></textarea>
+          </div>
 
-           
-
-        
-       
+          <input type="submit" name="submit" id="submit" />
+        </form>
       </body>
     </html>
   </body>
