@@ -27,16 +27,26 @@ body {
     background-size: cover;
 }
 
+#logo {
+    font-size: 30px;
+    font-family: Gloria Hallelujah, sans-serif;
+    color: #29cde2;
+    text-transform: uppercase;
+    padding-left: -25%;
+
+}
+
 /* navigation styles start here */
 
 header {
-    background: var(--background);
-    text-align: center;
+    background: #294d61;
+    text-align: right;
     position: fixed;
     z-index: 999;
     width: 100%;
     height: 130px;
     top: 0;
+    padding-right: -2%;
 }
 
 .nav-toggle {
@@ -104,7 +114,7 @@ nav li {
 }
 
 nav a {
-    color: #f0f0f0;
+    color: #22b6bb;
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -149,11 +159,11 @@ nav a:hover {
 
 .headline {
     padding-top: 8rem;
-    font-size: 15px;
+    font-size: 13px;
     justify-content: center;
     margin-left: 2%;
-    font-family: Gloria Hallelujah;
-    color: #6da5c0;
+    font-family: Gloria Hallelujah, sans-serif;
+    color: #29cde2;
     text-transform: uppercase;
 }
 
@@ -186,10 +196,6 @@ nav a:hover {
     object-fit: cover;
 }
 
-
-
-
-
 /* gallery*/
 
 
@@ -205,22 +211,6 @@ nav a:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* contact us */
 
 form {
@@ -229,7 +219,6 @@ form {
     gap: 2rem;
     max-width: 600px;
     padding: 50px;
-    padding-top: 8em;
     color: whitesmoke;
 }
 
@@ -263,6 +252,7 @@ form>div:nth-child(1) {
 
     .logo {
         grid-column: 2 / 3;
+        font-size: 52px;
     }
 
     nav {
@@ -325,4 +315,10 @@ form>div:nth-child(1) {
     .photos img {
         flex: 1 1 33.3333334%;
     }
-}
+
+    form {
+        display: block;
+        offset-block-end: 5%;
+        padding-top: 0;
+
+    }
