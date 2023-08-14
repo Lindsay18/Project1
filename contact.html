@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="discription" content="Skateboarding, skate parks" />
-    <meta
-      name="keywords"
-      content="skateboarding, skate parks, united kingdom"
-    />
-
+    <meta name="keywords" content="skateboarding, skate parks, united kingdom"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Street Skater</title>
-  </head>
+</head>
 
   <body id="homepage">
     <header>
@@ -66,31 +65,11 @@
           </label>
         </header>
 
-        <form>
-          <div>
-            <div>
-              <label for="fname">First Name</label>
-              <input type="text" placeholder="First Name" id="fname" required />
-            </div>
-            <div>
-              <label for="lname">Last Name</label>
-              <input type="text" placeholder="Last name" id="lname" required />
-            </div>
-          </div>
-          <div>
-            <label for="email">Email</label>
-            <input
-              type="email"
-              placeholder="Email Adress"
-              id="email"
-              required
-            />
-          </div>
-
+        <form class="contact-us">
           <div class="buttons">
             <h2>Which Park Are You Interested In?</h2>
             <div>
-              <label for="livi">Livingston</label>
+              <label for="livi">Livingston Park</label>
               <input type="radio" name="which-park" id="livi" value="livi" />
             </div>
             <div>
@@ -113,29 +92,49 @@
           </div>
 
           <div>
+            <div>
+              <label for="fname">First Name</label>
+              <input type="text" placeholder="First Name" id="fname" required />
+            </div>
+            <div>
+              <label for="lname">Last Name</label>
+              <input type="text" placeholder="Last name" id="lname" required />
+            </div>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              placeholder="Email Adress"
+              id="email"
+              required
+            />
+          </div>
+
+          <div>
             <label for="message">Leave Your Questions below</label>
-            <textarea
-              name="message"
-              id="message"
-              cols="60"
-              rows="30"
-            ></textarea>
+            <textarea name="message" id="message" cols="40" rows="20"></textarea>
           </div>
 
           <input type="submit" name="submit" id="submit" />
         </form>
         <footer>
-          <ul>
+          <ul class="social-networks">
             <li>
-              <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook Page (opens in a new tab)"><i class="fa-brands fa-facebook"></i</a>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
             </li>
-            <li><a href="https://twitter.com/">Twitter</a></li>
-            <li><a href="https://www.instagram.com/">Instagram</a></li>
-            <li><a href="https://www.youtube.com/">YouTube</a></li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa-brands fa-twitter"></i></a></li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="fa-brands fa-square-youtube"></i></a>
+            </li>
           </ul>
         </footer>
+
+        <!-- font awesome script -->
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
       </body>
     </html>
-  </body>
-</html>
+  
