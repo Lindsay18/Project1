@@ -27,7 +27,7 @@ On the Gallery page I attempted to make each picture stand out by creating a blu
 
 ## Validator Testing
 HTML- there were initial errors when validating mainly correcting my closing tags. When moving my closing tags closer, this fixed any errors on the validator. [W3C Validator]
-CSS- the errors that are on my CSS were due to using negavtive values, I was unaware that negavtive values were not to be used. I was concerned how this would effect my page if I tried to fix it. 
+CSS- the errors that are on my CSS were due to using negavtive values, I was unaware that negavtive values were not to be used. I was concerned how this would effect my page if I tried to fix it. (https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/CSSvalidation.png) (https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/HTMLvalidation.jpg.png)
 
 ## Unfixed Bugs 
 On Home page on smaller devices, the middle picture gets rather small. Tried various attempts to correct and was not successful. I will work on this for the future.
