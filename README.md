@@ -10,10 +10,10 @@ This site includes links for Google Maps to open on a seperate page to show the 
 This site also included social media links for Facebook, Instagram, Twitter and YouTube.
 
 **Home**
-This page shows three photos with skateboarders in action, giving a brief description on "Supporting your Local Skate Parks" The goal being to entice the user to get involved in skateboarding. ()
+This page shows three photos with skateboarders in action, giving a brief description on "Supporting your Local Skate Parks" The goal being to entice the user to get involved in skateboarding. (<https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/Homepage.png>) (<https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/Mediahomepage.png>)
 
 **Locations**
-On this page there are four famous UK Skateparks with external links that will show the exact location of these parks. With a brief description of what each park entails. 
+On this page there are four famous UK Skateparks with external links that will show the exact location of these parks. With a brief description of what each park entails. (https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/Locationspage.png) ()
 
 **Gallery**
 The Gallery page shows many different photos of SKateboards doing various tricks on their boards. Aiming to have the user become gain interest in Skateboarding or inspire Skateboarders to learn new tricks.
