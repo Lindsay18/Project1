@@ -1,39 +1,51 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Street Skater
 
-Welcome,
+Street Skater was developed to show four famous Skate Park attractions in the UK for Skateboad enthusiasts. The purpose of the site is to create a user friendly experience that is easily accessible and uses links to direct the skater to each of the locations.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+This website was created with four pages.
+The navigation bar is featured on all pages and is idential to allow the user to easily navigate from one page to the next across all devices.
+This site includes links for Google Maps to open on a seperate page to show the exact location of each park.
+This site also included social media links for Facebook, Instagram, Twitter and YouTube.
 
-## Codeanywhere Reminders
+**Home**
+This page shows three photos with skateboarders in action, giving a brief description on "Supporting your Local Skate Parks" The goal being to entice the user to get involved in skateboarding. ()
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+**Locations**
+On this page there are four famous UK Skateparks with external links that will show the exact location of these parks. With a brief description of what each park entails. 
 
-`python3 -m http.server`
+**Gallery**
+The Gallery page shows many different photos of SKateboards doing various tricks on their boards. Aiming to have the user become gain interest in Skateboarding or inspire Skateboarders to learn new tricks.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+**Contact Us**
+The contact page gives the user options of the four locations to learn more information of the park they are interested in. This page also asks for name and email with additional queries or comments available. It also contains a footer with Social Media links that also open in seperate pages.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Testing
+This site has been tested on various browsers including FireFox, Google Chrome, Microsoft Edge. It has also been tested on an Ipad and Mobile Phones to ensure the navigation bar works correctly. 
+On Home page on smaller devices, the middle picture gets rather small. Tried various attempts to correct and was not successful. I will work on this for the future.
+On the Gallery page I attempted to make each picture stand out by creating a blur effect. I realised that I made an error by including all <img> in one <div>. When attempting to correct this, I ran into further difficulties and was unable to fix.
 
-`http_server`
+## Validator Testing
+HTML- there were initial errors when validating mainly correcting my closing tags. When moving my closing tags closer, this fixed any errors on the validator. [W3C Validator]
+CSS- the errors that are on my CSS were due to using negavtive values, I was unaware that negavtive values were not to be used. I was concerned how this would effect my page if I tried to fix it.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Unfixed Bugs 
+On Home page on smaller devices, the middle picture gets rather small. Tried various attempts to correct and was not successful. I will work on this for the future.
+On the Gallery page I attempted to make each picture stand out by creating a blur effect. I realised that I made an error by including all <img> in one <div>. When attempting to correct this, I ran into further difficulties and was unable to fix.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Credit Media and Content
+Information used on the Location page was taken from:
+Livingston 'Livi' (https://www.westlothian.gov.uk/article/77826/Livingston-Skatepark)
+Stoke Plaza (<https://www.skateparks.co.uk/staffordshire/stoke-plaza-skatepark/>)
+Source Park (<https://www.sourceskate.com/pages/sourcepark>)
+The Level (https://www.skateparks.co.uk/east-sussex/the-level-skatepark/)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Photos used for website were all taken from  (<https://www.pexels.com/>)
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
----
 
-Happy coding!
+
+

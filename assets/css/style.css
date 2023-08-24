@@ -29,13 +29,14 @@ body {
 
 #logo {
     font-size: 30px;
-    font-family: Gloria Hallelujah, sans-serif;
+    font-family: Gloria Hallelujah, 'sans-serif';
     color: #29cde2;
     text-transform: uppercase;
     padding-left: -25%;
 
 }
-#gallery{
+
+#gallery {
     background-color: aliceblue;
 }
 
@@ -165,7 +166,7 @@ nav a:hover {
     font-size: 13px;
     justify-content: center;
     margin-left: 2%;
-    font-family: Gloria Hallelujah, sans-serif;
+    font-family: Gloria Hallelujah, 'sans-serif';
     color: #29cde2;
     text-transform: uppercase;
 }
@@ -212,10 +213,6 @@ nav a:hover {
     background-origin: padding-box;
 }
 
-.photos:hover > img.blur {
-    filter: blur(3px);
-
-}
 
 
 /* contact us */
@@ -242,19 +239,35 @@ form>div:nth-child(1) {
 
 .buttons {
     align-items: center;
+    color: rgb(218, 226, 231);
 }
 
-.footer {
-    height: 150px;
+input {
+    background-color: grey;
 
 }
+
+textarea {
+    background-color: grey;
+    font-family: kreon 'sans-serif';
+}
+
+label {
+    color: rgb(218, 226, 231);
+    font-family: 'Ubunto', 'sans-serif';
+    font-size: larger;
+}
+
 
 .social-networks {
     text-align: center;
+
 }
 
 .social-networks>li {
     display: inline;
+    padding-top: 150px;
+    
 
 }
 
@@ -263,6 +276,8 @@ form>div:nth-child(1) {
     margin: 2%;
     padding: 5%;
     color: #29cde2;
+    position: relative;
+
 }
 
 
@@ -336,8 +351,8 @@ form>div:nth-child(1) {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 3px;
-        
-       
+
+
 
     }
 
@@ -346,12 +361,13 @@ form>div:nth-child(1) {
         border: #000;
         border-width: 2px;
     }
-         
+
 
 
     form {
         display: block;
-        offset-block-end: 5%;
+        
         padding-top: 0;
 
     }
+}
