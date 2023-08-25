@@ -13,11 +13,16 @@ This site also included social media links for Facebook, Instagram, Twitter and 
 **Home**
 This page shows three photos with skateboarders in action, giving a brief description on "Supporting your Local Skate Parks" The goal being to entice the user to get involved in skateboarding. ![here](<https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/Homepage.png>) ![here](<https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/Mediahomepage.png>)
 
+
 **Locations**
 On this page there are four famous UK Skateparks with external links that will show the exact location of these parks. With a brief description of what each park entails. ![here](https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/Locationspage.png) ![here](https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/Medialocations.png)
 
+
 **Gallery**
 The Gallery page shows many different photos of SKateboards doing various tricks on their boards. Aiming to have the user become gain interest in Skateboarding or inspire Skateboarders to learn new tricks. ![here](<https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/Gallerypage.png>) ![here](<https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/Mediagallerypage.png>)
+
+
+
 **Contact Us**
 The contact page gives the user options of the four locations to learn more information of the park they are interested in. This page also asks for name and email with additional queries or comments available. It also contains a footer with Social Media links that also open in seperate pages. ![here](<https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/ContactUs.png>) ![here](<https://github.com/Lindsay18/StreetSkater/blob/main/assets/images/Mediacontactuspage.png>)
 
