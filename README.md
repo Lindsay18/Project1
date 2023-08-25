@@ -49,7 +49,8 @@ CSS- the errors that are on my CSS were due to using negavtive values, I was una
 
 ## Unfixed Bugs 
 On Home page on smaller devices, the middle picture gets rather small. Tried various attempts to correct and was not successful. I will work on this for the future.
-On the Gallery page I attempted to make each picture stand out by creating a blur effect. I realised that I made an error by including all <img> in one <div>. When attempting to correct this, I ran into further difficulties and was unable to fix.
+On the Gallery page I attempted to make each picture stand out by creating a blur effect. I realised that I made an error by including all <img> in one <div>. When attempting to correct this, I ran into further difficulties and was unable to fix. Another bug that I came across was the background img not loading when pushed to github but running fine on local device. Many attempts to correct this bug however I was unable to find a fix that worked and still made the website function 
+appropriately.
 
 ## Credit Media and Content
 Information used on the Location page was taken from:
