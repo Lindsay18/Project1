@@ -21,7 +21,7 @@ body {
 
 #homepage {
     height: 100vh;
-    background-image: url(/assets/images/tunnel.jpg);
+    background-image: url(../assets/images/tunnel.jpg);
     background-color: rgb(165, 168, 168);
     background-blend-mode: multiply;
     background-size: cover;
